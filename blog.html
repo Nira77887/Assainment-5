@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'button-primary': '#ABEF5F',
+            'button-primary-2': '#ABEF5F80',
+            'background': '#B4F461',     
+          
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .lexend-font{
+       font-family: "Lexend", sans-serif; 
+    } 
+  </style>
+</head>
+
+<body class="lexend-font">
+    <header>
+        <nav class="bg-orange-50">
+            <div class="naver flex justify-around items-center py-2">
+                            <div>
+  <button id="home" class="btn bg-background text-sm  lg:text-2xl font-semibold">Home</button>
+                            </div>
+                            <div>
+                       
+            
+            
+                              
+                          </div>
+            <div class="gap-2 flex justify-center">
+                          <div>
+                            <img class="w-6 lg:w-8" src="assets/logo.png" alt="">
+                          </div>
+                           <div>
+                            <p class="text-sm lg:text-3xl font-extrabold">Donate Bangladesh</p>
+                           </div>
+            
+            </div>
+            
+            
+            <div class="gap-2 flex justify-center">
+            <img class=" w-5 lg:w-7  " src="assets/coin.png" alt="">
+                            <a class="text-sm lg:text-2xl">10000 BDT</a>
+            
+            </div>
+            
+            </div>
+            
+            </nav>
+  
+    
+        <div class="px-14 mt-16">
+            <h1 class="font-bold text-3xl mt-10">Important FAQ</h1>
+        </div>
+  
+         
+
+            
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" checked="checked" />
+                        <div class="collapse-title text-xl font-bold">What is the Document Object Model (DOM)?</div>
+                        <div class="collapse-content">
+                            <p>write your answer</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" />
+                        <div class="collapse-title text-xl font-bold">How do you select an element from the DOM?</div>
+                        <div class="collapse-content">
+                            <p>write your answer</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" />
+                        <div class="collapse-title text-xl font-bold">What is event delegation in the context of the DOM?</div>
+                        <div class="collapse-content">
+                            <p>write your answer</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" />
+                        <div class="collapse-title text-xl font-bold">How do you manipulate an element's attributes and style using the DOM?</div>
+                        <div class="collapse-content">
+                            <p>write your answer</p>
+        
+                            
+                        </div>
+                    </div>
+                </header>
+                <script>
+        document.getElementById('home').addEventListener('click',function(){
+                        window.location.href="./index.html"
+                    })
+               
+                </script>
+            
+       
+        <!-- <button onclick="location.href='faq.html'" class="btn mt-5">Blog</button> -->
+
+    
+
+    
+    <!-- <script src="js/index.js"></script> -->
+</body>
+</html>
